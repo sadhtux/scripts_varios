@@ -10,7 +10,7 @@
 # Buscar y reemplazar con find (Solo un nivel) y renombrar con exiv2
 # find . -maxdepth 1 -type f -iname '*.jpg' -exec exiv2 -r'%d-%m-%Y_%H%M%S' {} \;
 #
-# Buscar y reemplazar con find (Solo un nivel) y renombrar con exiv2
+# Buscar y reemplazar con find (Recursivo OJO) y renombrar con exiv2
 # find . -type f -iname '*.jpg' -exec exiv2 -F -v -r'%d-%m-%Y_%H%M%S' {} \;
 #
 # Creamos Carpeta para el Año en el que vamos a trabajar
