@@ -15,6 +15,8 @@
 #
 # Creamos Carpeta para el Año en el que vamos a trabajar
 mkdir 2020/{Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre} -p
+
+mkdir 20{17..23}/{01_Enero,02_Febrero,03_Marzo,04_Abril,05_Mayo,06_Junio,07_Julio,08_Agosto,09_Septiembre,10_Octubre,11_Noviembre,12_Diciembre} -p -v
 #
 # Una vez estandarizados por la metadata movemos todas las fotos al folder del año correspondiente
 find . -maxdepth 1 -type f -iname "*-2020_*" -exec mv {} 2020/ \;
